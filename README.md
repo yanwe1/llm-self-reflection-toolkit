@@ -1,6 +1,6 @@
 # LLM Referral Toolkit
 
-A toolkit for detecting psychological/mental wellbeing signals in longitudinal AI chatbot conversation logs. Original toolkit code stored in Google Drive.
+A toolkit for detecting psychological/mental wellbeing signals in longitudinal AI chatbot conversation logs. Original toolkit code stored in Google Drive. Toolkit developed during the 2026 Cornell Bowers Undergraduate Research Experience in the Human-AI Interaction Design Lab.
 
 ## Data handling
 
