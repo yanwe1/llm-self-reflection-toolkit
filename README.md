@@ -9,7 +9,7 @@ Code and config only — **no participant data in this repo.** All participant d
 
 ## Structure
 
-* 01_llm_prep_logs.ipynb              Preprocessing, PII redaction, Box upload
-* 02_llm_compute_metrics_meta.ipynb   Signal scoring
-* 03_llm_visualize_measures.ipynb     Visualization and trajectory analysis
+* 01_llm_prep_logs.ipynb:              Preprocessing, PII redaction, Box upload
+* 02_llm_compute_metrics_meta.ipynb:   Signal scoring
+* 03_llm_visualize_measures.ipynb:     Visualization and trajectory analysis
 config/                             Signal definitions and method mapping
