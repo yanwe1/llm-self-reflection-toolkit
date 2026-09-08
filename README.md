@@ -4,7 +4,7 @@ A toolkit for detecting psychological/mental wellbeing signals in longitudinal A
 
 ## Data handling
 
-Code and config only — **no participant data in this repo.** All participant data lives in Cornell Box only.
+Code and config only. **No participant data in this repo.** All participant data lives in Cornell Box only.
 
 
 ## Basic Structure: open notebooks below for more detailed structural info
