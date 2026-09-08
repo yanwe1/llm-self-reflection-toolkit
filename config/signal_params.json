@@ -1,0 +1,167 @@
+{
+  "Abandonment_Loss_Worry": {
+    "ecrr_items": [1, 2, 3, 7, 9, 11],
+    "definition": "A persistent worry that important people will leave, lose interest, or stop caring.",
+    "anchor_items": [
+      "I'm afraid that I will lose people's love.",
+      "I often worry that people will not want to stay with me.",
+      "I often worry that people don't really love me.",
+      "When my loved ones are out of sight, I worry that they might become interested in others.",
+      "I often worry about others leaving me.",
+      "I often worry about being abandoned."
+    ],
+    "key_phrases": [
+      "\\b(afraid|scared|terrified|worried|anxious|nervous|panic\\w*|freak\\w* out)\\b.{0,60}\\b(leav\\w*|abandon\\w*|walk\\w* (away|out)|disappear\\w*|los\\w* (him|her|them|you|me)|gone|ghost\\w*|dump\\w*|break\\w* up)\\b",
+      "\\b(leav\\w*|abandon\\w*|walk\\w* (away|out)|disappear\\w*|gone|dump\\w*|ghost\\w*)\\b.{0,60}\\b(afraid|scared|terrified|worried|anxious|scares? me|freak\\w* me out)\\b",
+      "\\bwhat if (he|she|they|you|my (partner|boyfriend|girlfriend|husband|wife|friend|mom|dad|family))('s| is| are)? (leav\\w*|gone|not coming back|done with me)\\b",
+      "\\bstop (loving|caring about|talking to|texting|responding to) me\\b",
+      "\\bneed (constant )?reassurance\\b",
+      "\\bkeep checking (if|whether) we('re| are) okay\\b",
+      "\\bcan'?t lose (him|her|them|you|my (partner|boyfriend|girlfriend|husband|wife|friend))\\b",
+      "\\bafraid (you'?ll|you will|they'?ll|he'?ll|she'?ll) (stop|leave|disappear|forget (about )?me)\\b",
+      "\\bwhat happens (if|when) (you'?re|you are|they'?re|they are) (gone|not (here|available|around) anymore)\\b",
+      "\\bdon'?t want (this|you|us|it) to (end|go away|be over)\\b",
+      "\\bworried (this|you|it) won'?t (be here|last|stay)\\b",
+      "\\bare you going to (leave|disappear|stop responding|stop talking to me)\\b",
+      "\\b(scared|terrified|afraid) (of|that) (being|feeling) (alone|abandoned|left)\\b",
+      "\\bwhat if (no one|nobody) (wants|loves|cares about) me\\b",
+      "\\b(everyone|people) (always )?(leaves?|leave) (me|eventually)\\b",
+      "\\bhaven'?t (heard|texted|called) (back|from (him|her|them|you)) and I'?m (worried|scared|panicking|freaking out)\\b",
+      "\\bkeep(s)? (thinking|wondering) (they|he|she|you) (don'?t|doesn'?t) (want|care about) me anymore\\b",
+      "\\b(worry\\w*|scared|afraid)\\b.{0,60}\\b(getting|get|become\\w*) interested in (someone|somebody|someone else|somebody else|others)\\b"
+    ],
+    "prototype_sentences": [
+      "I get anxious thinking someone I care about might stop loving me.",
+      "I worry a lot that people close to me won't want to stick around.",
+      "When someone I love is away, I start worrying they're losing interest.",
+      "I have a persistent fear of being left by people I care about."
+    ]
+  },
+  "Relational_Imbalance": {
+    "ecrr_items": [4, 5, 8, 12],
+    "definition": "An imbalance of care, feelings, or desire for closeness in a relationship, where the person feels they are giving more than they are receiving.",
+    "anchor_items": [
+      "I worry that others won't care about me as much as I care about them.",
+      "I often wish that others' feelings for me were as strong as my feelings for them.",
+      "When I show my feelings for others, I'm afraid they will not feel the same about me.",
+      "I find that others don't want to get as close as I would like."
+    ],
+    "key_phrases": [
+      "\\b(I|i) (give|put in|do|try|invest) (so much )?more\\b.{0,60}\\b(they|he|she|you)\\b",
+      "\\balways (the one|me) (reaching out|texting first|initiating|trying|planning|checking in)\\b",
+      "\\b(feels|felt|seems) (one[- ]sided|unbalanced|unequal|lopsided)\\b",
+      "\\b(they|he|she|my (partner|friend|boyfriend|girlfriend)) (never|rarely|barely) (initiat\\w*|reach\\w* out|text\\w* first|check\\w* (in|on me))\\b",
+      "\\bcarrying (this|the relationship|it|everything) (alone|by myself|on my own)\\b",
+      "\\bwish (they|he|she|you) cared (as much|the same way)\\b",
+      "\\bmore effort than (they|he|she|you)\\b",
+      "\\bdo you (even )?feel (the same|as strongly|as much)\\b",
+      "\\bfeel more (invested|attached|committed) than\\b",
+      "\\bnot sure (you|they|he|she) (feel|care) (the same|as much|about me)\\b",
+      "\\bone[- ]sided (conversation|relationship|friendship|thing)\\b",
+      "\\bI'?m (always )?the (only one|one who) (cares|tries|shows up|makes an effort)\\b",
+      "\\bfeel like (I'?m|I am) chasing (them|him|her|you)\\b",
+      "\\bgive so much and get (so little|nothing|barely anything) back\\b",
+      "\\b(open up|show (my )?feelings|express how (I|i) feel)\\b.{0,60}\\b(scared|afraid|worried|nervous)\\b.{0,40}\\b(reciprocat\\w*|feel the same|won'?t feel the same)\\b",
+      "\\b(won'?t|not|wasn'?t) (be )?reciprocated\\b"
+    ],
+    "prototype_sentences": [
+      "I feel like I care about this relationship more than the other person does.",
+      "It seems like I always want more closeness than they're willing to give.",
+      "I wish the emotional investment between us felt more equal.",
+      "When I open up, I'm not sure they feel the same way back."
+    ]
+  },
+  "Relationship_Self_Doubt": {
+    "ecrr_items": [10, 17],
+    "definition": "Doubt about one's own worth in relationships; comparing oneself to other people and feeling inferior.",
+    "anchor_items": [
+      "Others make me doubt myself.",
+      "I worry that I won't measure up to other people."
+    ],
+    "key_phrases": [
+      "\\bnot good enough for (him|her|them|you|anyone)\\b",
+      "\\bwhy would (he|she|they|you|anyone) (want|choose|stay with|love) me\\b",
+      "\\bdon'?t (think I )?deserve\\b",
+      "\\bnot (worthy|enough) (of|for)\\b",
+      "\\b(they|he|she|you)('ll| will)? (realize|find out) I'?m not enough\\b",
+      "\\bsomeone better than me\\b",
+      "\\b(compare|comparing) myself to\\b",
+      "\\bmake(s)? me doubt myself\\b",
+      "\\bI (don'?t|won'?t|just don'?t) measure up\\b",
+      "\\bwhat'?s wrong with me\\b",
+      "\\bfeel (so )?inferior\\b",
+      "\\bI'?m (probably |just )?not (that )?(interesting|likable|lovable)\\b",
+      "\\bnobody would (want|choose|pick|love) me\\b",
+      "\\bI'?m (too much|not enough|too broken|too damaged) for (anyone|them|him|her|you)\\b",
+      "\\bwhy (am I|do I feel like I'?m) never (good enough|the first choice|someone'?s first pick)\\b",
+      "\\beveryone else (seems|is) (better|more likable|more interesting) than me\\b"
+    ],
+    "prototype_sentences": [
+      "Being around certain people makes me question my own worth.",
+      "I worry that I don't measure up compared to other people.",
+      "I sometimes feel like I'm not enough for the people I'm close to.",
+      "I doubt myself a lot when I think about how others see me."
+    ]
+  },
+  "Fear_of_Being_Known": {
+    "ecrr_items": [14, 15],
+    "definition": "Wants closeness but fears that showing one's true self to others will lead to rejection.",
+    "anchor_items": [
+      "My desire to be very close sometimes scares people away.",
+      "I'm afraid that once someone gets to know me, they won't like who I really am."
+    ],
+    "key_phrases": [
+      "\\b(scared|afraid) (to show|of showing) (my )?real self\\b",
+      "\\bhide how I (really |truly )?feel\\b",
+      "\\bcan'?t be (fully |completely )?honest with (him|her|them|you|anyone)\\b",
+      "\\bkeep (parts of myself|things|this) hidden\\b",
+      "\\bif (they|he|she|you|anyone|someone|somebody) (really |truly )?(knew|got to know me|found out who I (really |truly )?am)\\b.{0,60}\\b(leave|leav\\w*|reject\\w*|walk away|wouldn'?t (like|want|stay|love me)|didn'?t like what they found)\\b",
+      "\\b(scare|push)\\w* people away\\b",
+      "\\bwon'?t like who I (really |truly )?am\\b",
+      "\\b(put on|wear) a mask\\b",
+      "\\bnever (told|shown) anyone this\\b",
+      "\\bafraid (you'?d|you would|you'?ll|they'?d|they would) (judge|think less of|see me differently|reject me)\\b",
+      "\\bshowing (my )?real self\\b",
+      "\\bdon'?t let people (get too close|see the real me|in)\\b",
+      "\\bhard to (open up|let people in|be vulnerable) with (him|her|them|you|anyone)\\b",
+      "\\bwhat if (they|he|she|you|someone|somebody) (saw|see) the real me and (left|leave|don'?t like it)\\b",
+      "\\bkeep (people|everyone) at (arm'?s length|a distance)\\b"
+    ],
+    "prototype_sentences": [
+      "I worry that if people really got to know me, they wouldn't like me.",
+      "Sometimes wanting closeness this much ends up pushing people away.",
+      "I hold back from showing my real self to people I'm close to.",
+      "I'm afraid of what happens once someone truly sees who I am."
+    ]
+  },
+  "Anger_at_Unmet_Needs": {
+    "ecrr_items": [16, 18],
+    "definition": "Frustration and anger when emotional support is withheld, including escalating behavior to elicit a response.",
+    "anchor_items": [
+      "It makes me mad that I don't get the affection and support I need from others.",
+      "Others only seem to notice me when I'm angry."
+    ],
+    "key_phrases": [
+      "\\b(frustrat\\w*|furious|angry|mad|irritat\\w*|resent\\w*|pissed( off)?)\\b.{0,60}\\b(don'?t|doesn'?t|didn'?t) (get|receive|notice|listen|care)\\b",
+      "\\bhave to ask (twice|again|multiple times|for)\\b",
+      "\\bfed up with (feeling )?(neglect\\w*|ignor\\w*|dismiss\\w*)\\b",
+      "\\bwhy can'?t (they|he|she|you|anyone) just\\b",
+      "\\btired of (not being|feeling|having to)\\b",
+      "\\bonly (notice(s)?|pay attention to) me when I('m| get) (angry|upset|mad|yelling)\\b",
+      "\\bafterthought\\b",
+      "\\bwhy (don'?t|won'?t) you (just )?(answer|respond|listen|help|care)\\b",
+      "\\bsick of (asking|repeating myself|explaining|begging)\\b",
+      "\\bignored (again|me again|me)\\b",
+      "\\bhave to (yell|snap|blow up|raise my voice) (to|before) (you|they|he|she) (notice|listen|respond)\\b",
+      "\\bwhy do I (always )?have to (be the one to|beg to) get (attention|noticed|a response)\\b",
+      "\\bmakes me so (angry|mad|frustrated) that (no one|nobody) (checks|asks|notices)\\b",
+      "\\bnever get(s)? the (support|help|attention) I (need|deserve)\\b"
+    ],
+    "prototype_sentences": [
+      "It frustrates me that I don't get the support I need from people around me.",
+      "I feel like people only pay attention to me once I get upset.",
+      "I get angry when my needs go unnoticed by people I'm close to.",
+      "I resent having to ask for basic care and attention."
+    ]
+  }
+}

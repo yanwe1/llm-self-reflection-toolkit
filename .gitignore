@@ -1,0 +1,15 @@
+logs/
+pilot_consent_forms/
+*_conversations*.json
+*_log_level1.csv
+*consent_form*.pdf
+*consent_form*.docx
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+*.env
+*.pem
+*api_key*
+*credentials*
+box_config.json
